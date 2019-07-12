@@ -15,7 +15,7 @@ def menu():  # Selection Menu
     print("6 - Exit")
     print()
 
-    choice = int(input("Enter an Option : "))
+    choice = int(input("Enter an Option: "))
     if choice == 1:
         findhost()
         menu()
@@ -35,7 +35,7 @@ def menu():  # Selection Menu
         clear()
         exitprog()
     else:
-        print("Error! Enter an Option :(")  # Make sure user inputs a number option
+        print("Error! Enter an Option: ")  # Make sure user inputs a number option
         menu()
 
 
